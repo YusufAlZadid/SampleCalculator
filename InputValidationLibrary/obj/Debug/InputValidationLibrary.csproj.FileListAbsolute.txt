@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\bin\Debug\InputValidationLibrary.dll
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\bin\Debug\InputValidationLibrary.pdb
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\obj\Debug\InputValidationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\obj\Debug\InputValidationLibrary.dll
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\obj\Debug\InputValidationLibrary.pdb
+C:\Users\Asus\source\repos\Task1\InputValidationLibrary\obj\Debug\InputValidationLibrary.csprojAssemblyReference.cache

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Task1Wix" Language="1033" Version="1.0.0.0" Manufacturer="Al Zadid Yusuf" UpgradeCode="2ee2b72f-afee-4616-b9df-5675e9fec020">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="Task1Wix" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Task1Wix" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="Task1.exe" Guid="4d6e4f2c-27f1-4343-a217-a8ccdc0ffd85" >
+        <File Id="Task1.exe" Name="Task1.exe" Source="C:\Users\Asus\source\repos\Task1\Task1\bin\Debug\Task1.exe"></File>
+      </Component>
+      <Component Id="MathOperations.dll" Guid="db31c9b2-7981-418e-9662-45e2c0a11d49">
+        <File Id="MathOperations.dll" Name="MathOperations.dll" Source="C:\Users\Asus\source\repos\Task1\Task1\bin\Debug\MathOperations.dll" />
+      </Component>
+       <Component Id="InputValidationLibrary.dll" Guid="5899843b-aef9-4b2b-835e-75b9199f9dbb">
+        <File Id="InputValidationLibrary.dll" Name="InputValidationLibrary.dll" Source="C:\Users\Asus\source\repos\Task1\Task1\bin\Debug\InputValidationLibrary.dll" />
+      </Component>
+      <!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+		</ComponentGroup>
+	</Fragment>
+</Wix>

@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\Task1\Task1Wix\bin\Debug\Task1Wix.msi
+C:\Users\Asus\source\repos\Task1\Task1Wix\bin\Debug\Task1Wix.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\Task1Wix.wixproj.BindContentsFileListnull.txt
+obj\Debug\Task1Wix.wixproj.BindOutputsFileListnull.txt
+obj\Debug\Task1Wix.wixproj.BindBuiltOutputsFileListnull.txt
